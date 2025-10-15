@@ -249,7 +249,6 @@ if __name__ == '__main__':
     print("   GET    /api/personas/<id>    - Obtener persona por ID")
     print("   PUT    /api/personas/<id>    - Actualizar persona")
     print("   DELETE /api/personas/<id>    - Eliminar persona")
-    print("   GET    /api/health           - Verificar estado del servicio")
     
     app.run(debug=True, host='0.0.0.0', port=9090)
 
